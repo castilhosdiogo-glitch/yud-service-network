@@ -1,29 +1,81 @@
 version: 2
+
+# Two npm projects live in this repo. Scanning only "/" left admin/ unscanned,
+# so its dependencies were never surfaced by Dependabot.
+#
+# Major bumps are ignored here on purpose. They are breaking by definition and
+# need a dedicated branch with a build and a manual pass. Leaving them in the
+# automatic queue kept open-pull-requests-limit permanently saturated, which
+# stops Dependabot from opening anything else.
 updates:
-  # NPM dependencies
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
       time: "04:00"
       timezone: "America/Sao_Paulo"
     open-pull-requests-limit: 5
-    allow:
-      - dependency-type: all
+    versioning-strategy: increase
+    groups:
+      app-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
     reviewers:
-      - "casti"
-    assignees:
-      - "casti"
+      - castilhosdiogo-glitch
     commit-message:
       prefix: "chore(deps)"
       prefix-development: "chore(deps-dev)"
-      include: "scope"
+      include: scope
 
-  # GitHub Actions
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: npm
+    directory: "/admin"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "04:00"
+      timezone: "America/Sao_Paulo"
+    open-pull-requests-limit: 5
+    versioning-strategy: increase
+    groups:
+      admin-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
+    reviewers:
+      - castilhosdiogo-glitch
+    commit-message:
+      prefix: "chore(deps-admin)"
+      prefix-development: "chore(deps-admin-dev)"
+      include: scope
+
+  - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: weekly
+      day: monday
       time: "04:00"
+      timezone: "America/Sao_Paulo"
     open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns:
+          - "*"
+    reviewers:
+      - castilhosdiogo-glitch
+    commit-message:
+      prefix: "chore(ci)"
+      include: scope
