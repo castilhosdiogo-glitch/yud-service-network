@@ -50,13 +50,13 @@ const FinalCTASection = () => (
           <div className="w-8 h-8 rounded-2xl bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-display text-sm font-black">F</span>
           </div>
-          <span className="font-display font-black text-xl tracking-tighter text-foreground uppercase">Fixr</span>
+          <span className="font-display font-black text-xl tracking-tighter text-foreground uppercase">YUD Service Network</span>
         </div>
         <p className="text-[9px] font-black uppercase tracking-[0.2em] text-muted-foreground opacity-60">
           Porto Alegre · Gravataí · Canoas · Cachoeirinha · Viamão · Alvorada
         </p>
         <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary mt-6">
-          © 2026 Fixr — Plataforma de Serviços
+          © 2026 YUD Service Network — Plataforma de Serviços
         </p>
       </div>
     </footer>

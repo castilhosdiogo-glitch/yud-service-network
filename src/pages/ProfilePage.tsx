@@ -44,7 +44,7 @@ const ProfilePage = () => {
   if (!user) {
     return (
       <div className="min-h-screen pb-20 bg-background">
-        <SEO title="Perfil | Fixr" />
+        <SEO title="Perfil | YUD Service Network" />
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="max-w-lg mx-auto">
           <h1 className="font-display font-black text-xs uppercase tracking-[0.2em] text-foreground">PERFIL DO OPERADOR</h1>
@@ -95,7 +95,7 @@ const ProfilePage = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="Meu Perfil | Fixr" />
+      <SEO title="Meu Perfil | YUD Service Network" />
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="max-w-lg mx-auto">
           <h1 className="font-display font-black text-xs uppercase tracking-[0.2em] text-foreground">PERFIL DO OPERADOR</h1>

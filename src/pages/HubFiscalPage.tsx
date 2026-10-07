@@ -69,7 +69,7 @@ const HubFiscalPage = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="Hub Fiscal | Fixr" />
+      <SEO title="Hub Fiscal | YUD Service Network" />
 
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-4 max-w-lg mx-auto">

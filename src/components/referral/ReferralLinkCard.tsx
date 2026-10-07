@@ -23,7 +23,7 @@ export const ReferralLinkCard = () => {
     if (!data) return;
     if (navigator.share) {
       await navigator.share({
-        title: "Junte-se à Fixr",
+        title: "Junte-se à YUD Service Network",
         text: `Use meu código ${data.code.code} e comece a receber clientes na sua região!`,
         url: data.url,
       });

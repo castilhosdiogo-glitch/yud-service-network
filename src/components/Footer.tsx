@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-2 w-fit group">
               <Logo className="w-6 h-6 group-hover:scale-95 transition-transform" />
-              <span className="font-display font-black text-lg text-foreground">Fixr</span>
+              <span className="font-display font-black text-lg text-foreground">YUD Service Network</span>
             </Link>
             <p className="text-xs text-muted-foreground">
               Conectando clientes com profissionais verificados

@@ -141,7 +141,7 @@ function StepWelcome({ name, onNext }: { name: string; onNext: () => void }) {
       </div>
       <div>
         <h1 className="text-2xl font-display font-black tracking-tight">
-          Bem-vindo{firstName ? `, ${firstName}` : ""} à Fixr!
+          Bem-vindo{firstName ? `, ${firstName}` : ""} à YUD Service Network!
         </h1>
         <p className="text-sm text-muted-foreground mt-2">
           Vamos configurar seu perfil em 6 passos rápidos. Leva ~5 minutos e é

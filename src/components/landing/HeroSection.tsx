@@ -43,7 +43,7 @@ const HeroSection = () => {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="mt-10 text-xl sm:text-2xl text-muted-foreground max-w-3xl leading-relaxed border-l-2 border-border pl-8"
         >
-          O Fixr é feito para quem quer trabalhar mais e melhor.
+          A YUD Service Network é feita para quem quer trabalhar mais e melhor.
           Crie seu perfil em segundos e seja encontrado por clientes que precisam do seu serviço agora.
         </motion.p>
 
@@ -92,7 +92,7 @@ const HeroSection = () => {
             </div>
             <div className="text-left">
               <h3 className="font-display font-black text-lg uppercase tracking-wider mb-2">Segurança de Verdade</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Negocie direto com o cliente de forma transparente. No Fixr, o seu trabalho é valorizado.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Negocie direto com o cliente de forma transparente. Na YUD Service Network, o seu trabalho é valorizado.</p>
             </div>
           </div>
         </motion.div>

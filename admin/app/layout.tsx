@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fixr Admin",
-  description: "Painel administrativo Fixr",
+  title: "YUD Service Network Admin",
+  description: "Painel administrativo YUD Service Network",
   robots: { index: false, follow: false },
 };
 

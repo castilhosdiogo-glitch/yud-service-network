@@ -16,19 +16,19 @@ export default function FAQ() {
       category: "Para Clientes",
       items: [
         {
-          question: "O que é o Fixr?",
+          question: "O que é a YUD Service Network?",
           answer:
-            "O Fixr é uma plataforma que conecta você a profissionais autônomos verificados para serviços domésticos como instalações elétricas, encanamento, faxina, pintura, alvenaria e muito mais. Tudo de forma segura, rápida e com pagamento protegido.",
+            "A YUD Service Network é uma plataforma que conecta você a profissionais autônomos verificados para serviços domésticos como instalações elétricas, encanamento, faxina, pintura, alvenaria e muito mais. Tudo de forma segura, rápida e com pagamento protegido.",
         },
         {
           question: "Como faço para solicitar um serviço?",
           answer:
-            "É simples: baixe o aplicativo Fixr, crie sua conta, escolha a categoria do serviço que precisa, descreva o problema e informe o endereço e urgência. Profissionais verificados próximos a você receberão seu pedido e entrarão em contato.",
+            "É simples: baixe o aplicativo YUD Service Network, crie sua conta, escolha a categoria do serviço que precisa, descreva o problema e informe o endereço e urgência. Profissionais verificados próximos a você receberão seu pedido e entrarão em contato.",
         },
         {
           question: "Como funciona o pagamento?",
           answer:
-            "O pagamento é feito diretamente pela Plataforma, de forma segura. Você paga antes do início do serviço e o valor fica retido pela Fixr. O profissional só recebe após você confirmar que o serviço foi concluído satisfatoriamente. Isso garante sua segurança.",
+            "O pagamento é feito diretamente pela Plataforma, de forma segura. Você paga antes do início do serviço e o valor fica retido pela YUD Service Network. O profissional só recebe após você confirmar que o serviço foi concluído satisfatoriamente. Isso garante sua segurança.",
         },
         {
           question: "O que acontece se eu não estiver satisfeito com o serviço?",
@@ -38,7 +38,7 @@ export default function FAQ() {
         {
           question: "Os profissionais são verificados?",
           answer:
-            "Sim. Todos os profissionais cadastrados no Fixr passam por um processo de verificação de identidade com envio de documento oficial e selfie. Além disso, cada profissional tem um histórico público de avaliações de clientes reais.",
+            "Sim. Todos os profissionais cadastrados na YUD Service Network passam por um processo de verificação de identidade com envio de documento oficial e selfie. Além disso, cada profissional tem um histórico público de avaliações de clientes reais.",
         },
         {
           question: "Posso cancelar um pedido?",
@@ -51,14 +51,14 @@ export default function FAQ() {
             "Após a conclusão do serviço, você receberá uma notificação para avaliar o profissional. A avaliação inclui uma nota geral (1 a 5 estrelas) e avaliações específicas sobre pontualidade, qualidade, comunicação e preço. Suas avaliações ajudam outros clientes a escolherem bem.",
         },
         {
-          question: "O Fixr atende minha cidade?",
+          question: "A YUD Service Network atende minha cidade?",
           answer:
-            "O Fixr está em expansão contínua. Iniciamos em Porto Alegre e região metropolitana e estamos crescendo para outras cidades do Brasil. Baixe o app e veja se há cobertura na sua região — ou se cadastre na lista de espera para ser avisado quando chegarmos.",
+            "A YUD Service Network está em expansão contínua. Iniciamos em Porto Alegre e região metropolitana e estamos crescendo para outras cidades do Brasil. Baixe o app e veja se há cobertura na sua região — ou se cadastre na lista de espera para ser avisado quando chegarmos.",
         },
         {
           question: "Meus dados estão seguros?",
           answer:
-            "Sim. A Fixr segue rigorosamente a Lei Geral de Proteção de Dados (LGPD) e adota criptografia e as melhores práticas de segurança para proteger suas informações. Seus dados nunca são vendidos para terceiros.",
+            "Sim. A YUD Service Network segue rigorosamente a Lei Geral de Proteção de Dados (LGPD) e adota criptografia e as melhores práticas de segurança para proteger suas informações. Seus dados nunca são vendidos para terceiros.",
         },
       ],
     },
@@ -66,17 +66,17 @@ export default function FAQ() {
       category: "Para Profissionais",
       items: [
         {
-          question: "Como me cadastro como profissional no Fixr?",
+          question: "Como me cadastro como profissional na YUD Service Network?",
           answer:
-            "Baixe o aplicativo Fixr, selecione 'Sou Profissional' no cadastro, preencha seus dados pessoais, escolha suas especialidades e envie os documentos solicitados para verificação. Após aprovação (em até 24 horas), seu perfil ficará visível para os clientes.",
+            "Baixe o aplicativo YUD Service Network, selecione 'Sou Profissional' no cadastro, preencha seus dados pessoais, escolha suas especialidades e envie os documentos solicitados para verificação. Após aprovação (em até 24 horas), seu perfil ficará visível para os clientes.",
         },
         {
           question: "Quais documentos preciso enviar?",
           answer:
-            "Para se tornar um Profissional Verificado Fixr você precisará enviar: documento oficial com foto (RG ou CNH, frente e verso), selfie segurando o documento e comprovante de residência. Para algumas categorias podem ser solicitados certificados técnicos adicionais.",
+            "Para se tornar um Profissional Verificado YUD Service Network você precisará enviar: documento oficial com foto (RG ou CNH, frente e verso), selfie segurando o documento e comprovante de residência. Para algumas categorias podem ser solicitados certificados técnicos adicionais.",
         },
         {
-          question: "Quanto custa usar o Fixr?",
+          question: "Quanto custa usar a YUD Service Network?",
           answer:
             "O cadastro é gratuito no plano Parceiro, com comissão de 12% sobre cada serviço. O plano Profissional (R$ 29,90/mês) reduz a comissão para 10% e libera recursos extras como áudio, vídeo no chat, agenda e hub fiscal.",
         },
@@ -96,14 +96,14 @@ export default function FAQ() {
             "O Plano Profissional (R$ 29,90/mês) oferece comissão reduzida de 10%, solicitações ilimitadas, destaque nos resultados de busca, chat com áudio e vídeo, agenda integrada, hub fiscal e muito mais. O plano Parceiro é gratuito e permite até 8 solicitações por mês.",
         },
         {
-          question: "Posso abrir meu MEI pelo Fixr?",
+          question: "Posso abrir meu MEI pela YUD Service Network?",
           answer:
-            "Sim! O Fixr oferece um módulo de formalização integrado onde você pode abrir seu MEI, emitir notas fiscais e acompanhar suas obrigações fiscais — tudo sem sair do aplicativo. A formalização aumenta suas chances de conquistar clientes empresariais.",
+            "Sim! A YUD Service Network oferece um módulo de formalização integrado onde você pode abrir seu MEI, emitir notas fiscais e acompanhar suas obrigações fiscais — tudo sem sair do aplicativo. A formalização aumenta suas chances de conquistar clientes empresariais.",
         },
         {
           question: "O que é o Fixx?",
           answer:
-            "O Fixx é a plataforma financeira do ecossistema Fixr, em desenvolvimento. Com o Fixx você terá acesso a conta digital, cartão, crédito baseado no seu histórico de serviços, antecipação de recebíveis e seguro para autônomos. Em breve disponível para profissionais cadastrados.",
+            "O Fixx é a plataforma financeira do ecossistema YUD Service Network, em desenvolvimento. Com o Fixx você terá acesso a conta digital, cartão, crédito baseado no seu histórico de serviços, antecipação de recebíveis e seguro para autônomos. Em breve disponível para profissionais cadastrados.",
         },
         {
           question: "Como funciona o sistema de avaliações?",
@@ -121,9 +121,9 @@ export default function FAQ() {
       category: "Sobre a Plataforma",
       items: [
         {
-          question: "O Fixr está disponível em quais plataformas?",
+          question: "A YUD Service Network está disponível em quais plataformas?",
           answer:
-            "O Fixr está disponível como aplicativo para iOS (App Store) e Android (Google Play), além de versão web acessível pelo navegador em www.fixrapp.com.br.",
+            "A YUD Service Network está disponível como aplicativo para iOS (App Store) e Android (Google Play), além de versão web acessível pelo navegador em www.fixrapp.com.br.",
         },
         {
           question: "Como entro em contato com o suporte?",
@@ -131,14 +131,14 @@ export default function FAQ() {
             "Você pode falar com nosso suporte pelo chat dentro do aplicativo, pelo e-mail suporte@fixrapp.com.br ou pelas redes sociais @fixrapp. Nosso atendimento funciona de segunda a sexta das 8h às 20h.",
         },
         {
-          question: "O Fixr vai expandir para outras cidades?",
+          question: "A YUD Service Network vai expandir para outras cidades?",
           answer:
             "Sim! O plano é expandir por todo o Brasil e futuramente para América Latina e África. Siga nossas redes sociais para acompanhar as novidades de expansão.",
         },
         {
           question: "Como reporto um comportamento inadequado?",
           answer:
-            "Qualquer comportamento inadequado — seja de clientes ou profissionais — pode ser reportado diretamente pelo aplicativo no perfil do usuário ou pelo e-mail suporte@fixrapp.com.br. Todos os reportes são investigados pela equipe Fixr.",
+            "Qualquer comportamento inadequado — seja de clientes ou profissionais — pode ser reportado diretamente pelo aplicativo no perfil do usuário ou pelo e-mail suporte@fixrapp.com.br. Todos os reportes são investigados pela equipe YUD Service Network.",
         },
       ],
     },
@@ -147,8 +147,8 @@ export default function FAQ() {
   return (
     <>
       <Helmet>
-        <title>FAQ - Perguntas Frequentes | Fixr</title>
-        <meta name="description" content="Encontre respostas para suas dúvidas sobre a plataforma Fixr" />
+        <title>FAQ - Perguntas Frequentes | YUD Service Network</title>
+        <meta name="description" content="Encontre respostas para suas dúvidas sobre a plataforma YUD Service Network" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
@@ -168,7 +168,7 @@ export default function FAQ() {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-2">Perguntas Frequentes</h1>
             <p className="text-muted-foreground text-lg">
-              Tudo o que você precisa saber sobre o Fixr
+              Tudo o que você precisa saber sobre a YUD Service Network
             </p>
             <p className="text-sm text-muted-foreground mt-4">
               Versão 1.0 — 02 de abril de 2026
@@ -229,7 +229,7 @@ export default function FAQ() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>Fixr — Fixrapp Tecnologia Ltda</p>
+            <p>YUD Service Network — Fixrapp Tecnologia Ltda</p>
           </div>
         </div>
         </div>

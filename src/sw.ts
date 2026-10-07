@@ -13,16 +13,16 @@ self.addEventListener('push', (event) => {
   try {
     data = event.data?.json() ?? {};
   } catch {
-    data = { title: 'Fixr', body: event.data?.text() ?? '' };
+    data = { title: 'YUD Service Network', body: event.data?.text() ?? '' };
   }
 
   event.waitUntil(
-    self.registration.showNotification(data.title ?? 'Fixr', {
+    self.registration.showNotification(data.title ?? 'YUD Service Network', {
       body: data.body ?? 'Nova atividade no seu painel.',
       icon: data.icon ?? '/pwa-icon-512.png',
       badge: data.badge ?? '/pwa-icon-512.png',
       vibrate: [200, 100, 200],
-      tag: 'Fixr-dispatch',
+      tag: 'YUD Service Network-dispatch',
       renotify: true,
     })
   );

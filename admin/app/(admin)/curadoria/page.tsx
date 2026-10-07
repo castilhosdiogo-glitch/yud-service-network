@@ -104,7 +104,7 @@ export default async function CuradoriaPage() {
         <div>
           <h1 className="text-xl font-semibold tracking-tight flex items-center gap-2">
             <Award size={18} className="text-amber-500" />
-            Curadoria Fixr
+            Curadoria YUD
           </h1>
           <p className="text-sm text-slate-500 mt-0.5">
             Níveis, eventos críticos e ações manuais sobre profissionais.
@@ -126,7 +126,7 @@ export default async function CuradoriaPage() {
       {/* Tables */}
       <div className="grid grid-cols-2 gap-4">
         <Table
-          title="Fixr Select ativos"
+          title="YUD Select ativos"
           tone="warning"
           rows={selectActive.map((p) => ({
             id: p.user_id as string,

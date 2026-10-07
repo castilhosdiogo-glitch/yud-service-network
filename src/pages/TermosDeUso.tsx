@@ -9,8 +9,8 @@ export default function TermosDeUso() {
   return (
     <>
       <Helmet>
-        <title>Termos de Uso - Fixr</title>
-        <meta name="description" content="Leia os termos de uso da plataforma Fixr" />
+        <title>Termos de Uso - YUD Service Network</title>
+        <meta name="description" content="Leia os termos de uso da plataforma YUD Service Network" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
@@ -39,15 +39,15 @@ export default function TermosDeUso() {
 
           <div className="space-y-8 text-foreground">
             <section>
-              <h2 className="text-2xl font-bold mb-4">1. Sobre a Fixr</h2>
+              <h2 className="text-2xl font-bold mb-4">1. Sobre a YUD Service Network</h2>
               <p>
-                A Fixr é uma plataforma digital de intermediação de serviços domésticos, operada pela Fixrapp Tecnologia Ltda, com sede em Gravataí, Rio Grande do Sul, Brasil.
+                A YUD Service Network é uma plataforma digital de intermediação de serviços domésticos, operada pela Fixrapp Tecnologia Ltda, com sede em Gravataí, Rio Grande do Sul, Brasil.
               </p>
               <p>
-                A Fixr conecta clientes que precisam de serviços domésticos com profissionais autônomos verificados, facilitando o agendamento, a comunicação e o pagamento de forma segura e transparente.
+                A YUD Service Network conecta clientes que precisam de serviços domésticos com profissionais autônomos verificados, facilitando o agendamento, a comunicação e o pagamento de forma segura e transparente.
               </p>
               <p>
-                Ao criar uma conta e utilizar a plataforma Fixr, você concorda integralmente com estes Termos de Uso. Caso não concorde, não utilize nossos serviços.
+                Ao criar uma conta e utilizar a plataforma YUD Service Network, você concorda integralmente com estes Termos de Uso. Caso não concorde, não utilize nossos serviços.
               </p>
             </section>
 
@@ -55,7 +55,7 @@ export default function TermosDeUso() {
               <h2 className="text-2xl font-bold mb-4">2. Definições</h2>
               <p>Para fins destes Termos, adotam-se as seguintes definições:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Plataforma:</strong> o aplicativo móvel e o site da Fixr, disponíveis nas versões iOS, Android e web.</li>
+                <li><strong>Plataforma:</strong> o aplicativo móvel e o site da YUD Service Network, disponíveis nas versões iOS, Android e web.</li>
                 <li><strong>Cliente:</strong> pessoa física ou jurídica que solicita serviços domésticos por meio da Plataforma.</li>
                 <li><strong>Profissional:</strong> prestador de serviços autônomo devidamente cadastrado e verificado na Plataforma.</li>
                 <li><strong>Serviço:</strong> atividade prestada pelo Profissional ao Cliente mediante contratação pela Plataforma.</li>
@@ -68,7 +68,7 @@ export default function TermosDeUso() {
               <h2 className="text-2xl font-bold mb-4">3. Cadastro e Conta</h2>
 
               <h3 className="text-xl font-semibold mb-2">3.1 Requisitos</h3>
-              <p>Para utilizar a Fixr é necessário:</p>
+              <p>Para utilizar a YUD Service Network é necessário:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Ter no mínimo 18 anos de idade ou ser emancipado legalmente.</li>
                 <li>Fornecer informações verdadeiras, completas e atualizadas no cadastro.</li>
@@ -78,26 +78,26 @@ export default function TermosDeUso() {
 
               <h3 className="text-xl font-semibold mb-2 mt-4">3.2 Verificação</h3>
               <p>
-                A Fixr realiza verificação de identidade dos Profissionais mediante envio de documentos oficiais com foto (RG ou CNH) e selfie. Clientes podem ter verificação adicional solicitada conforme necessidade da plataforma.
+                A YUD Service Network realiza verificação de identidade dos Profissionais mediante envio de documentos oficiais com foto (RG ou CNH) e selfie. Clientes podem ter verificação adicional solicitada conforme necessidade da plataforma.
               </p>
 
               <h3 className="text-xl font-semibold mb-2 mt-4">3.3 Responsabilidade da Conta</h3>
               <p>
-                Você é o único responsável por manter a confidencialidade de suas credenciais de acesso. Qualquer atividade realizada com sua conta é de sua responsabilidade. Em caso de uso não autorizado, notifique a Fixr imediatamente pelo canal de suporte.
+                Você é o único responsável por manter a confidencialidade de suas credenciais de acesso. Qualquer atividade realizada com sua conta é de sua responsabilidade. Em caso de uso não autorizado, notifique a YUD Service Network imediatamente pelo canal de suporte.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">4. Natureza da Plataforma</h2>
-              <p>A Fixr é uma plataforma de intermediação tecnológica. Isso significa que:</p>
+              <p>A YUD Service Network é uma plataforma de intermediação tecnológica. Isso significa que:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>A Fixr não é parte dos Contratos de Serviço celebrados entre Clientes e Profissionais.</li>
-                <li>Os Profissionais cadastrados são prestadores autônomos e independentes, não sendo empregados, sócios, representantes ou agentes da Fixr.</li>
-                <li>A Fixr não garante a disponibilidade de Profissionais em determinados horários ou regiões.</li>
+                <li>A YUD Service Network não é parte dos Contratos de Serviço celebrados entre Clientes e Profissionais.</li>
+                <li>Os Profissionais cadastrados são prestadores autônomos e independentes, não sendo empregados, sócios, representantes ou agentes da YUD Service Network.</li>
+                <li>A YUD Service Network não garante a disponibilidade de Profissionais em determinados horários ou regiões.</li>
                 <li>A responsabilidade pela execução, qualidade e entrega do Serviço é exclusivamente do Profissional contratado.</li>
               </ul>
               <p>
-                A Fixr atua como intermediadora e se compromete a oferecer ferramentas de segurança — como verificação de identidade, sistema de avaliações e suporte à mediação de conflitos — para proporcionar a melhor experiência possível.
+                A YUD Service Network atua como intermediadora e se compromete a oferecer ferramentas de segurança — como verificação de identidade, sistema de avaliações e suporte à mediação de conflitos — para proporcionar a melhor experiência possível.
               </p>
             </section>
 
@@ -106,22 +106,22 @@ export default function TermosDeUso() {
 
               <h3 className="text-xl font-semibold mb-2">5.1 Modelo de Pagamento</h3>
               <p>
-                O pagamento pelos Serviços é realizado através da Plataforma Fixr, que atua como intermediadora financeira. O valor é retido pela Fixr após a confirmação do pedido e repassado ao Profissional após a confirmação de conclusão do Serviço pelo Cliente.
+                O pagamento pelos Serviços é realizado através da Plataforma YUD Service Network, que atua como intermediadora financeira. O valor é retido pela YUD Service Network após a confirmação do pedido e repassado ao Profissional após a confirmação de conclusão do Serviço pelo Cliente.
               </p>
 
               <h3 className="text-xl font-semibold mb-2 mt-4">5.2 Comissão</h3>
               <p>
-                A Fixr cobra uma comissão sobre o valor de cada Serviço realizado, conforme tabela vigente disponível na Plataforma. A comissão é deduzida automaticamente do valor repassado ao Profissional.
+                A YUD Service Network cobra uma comissão sobre o valor de cada Serviço realizado, conforme tabela vigente disponível na Plataforma. A comissão é deduzida automaticamente do valor repassado ao Profissional.
               </p>
 
               <h3 className="text-xl font-semibold mb-2 mt-4">5.3 Prazo de Repasse</h3>
               <p>
-                O valor líquido (descontada a comissão da Fixr) será repassado ao Profissional em até 24 horas após a confirmação de conclusão do Serviço pelo Cliente, conforme método de recebimento cadastrado.
+                O valor líquido (descontada a comissão da YUD Service Network) será repassado ao Profissional em até 24 horas após a confirmação de conclusão do Serviço pelo Cliente, conforme método de recebimento cadastrado.
               </p>
 
               <h3 className="text-xl font-semibold mb-2 mt-4">5.4 Cancelamentos e Reembolsos</h3>
               <p>
-                Cancelamentos realizados pelo Cliente antes do início do Serviço serão reembolsados integralmente. Cancelamentos após o início do Serviço estão sujeitos à política de cancelamento específica disponível na Plataforma. Disputas entre Cliente e Profissional relacionadas ao pagamento serão mediadas pela equipe de suporte da Fixr.
+                Cancelamentos realizados pelo Cliente antes do início do Serviço serão reembolsados integralmente. Cancelamentos após o início do Serviço estão sujeitos à política de cancelamento específica disponível na Plataforma. Disputas entre Cliente e Profissional relacionadas ao pagamento serão mediadas pela equipe de suporte da YUD Service Network.
               </p>
             </section>
 
@@ -145,7 +145,7 @@ export default function TermosDeUso() {
                 <li>Executar o Serviço com qualidade, segurança e dentro das normas técnicas aplicáveis.</li>
                 <li>Tratar o Cliente com respeito e urbanidade.</li>
                 <li>Possuir as habilitações, certificações e equipamentos necessários para execução do Serviço.</li>
-                <li>Não solicitar ou aceitar pagamentos fora da Plataforma para Serviços originados na Fixr.</li>
+                <li>Não solicitar ou aceitar pagamentos fora da Plataforma para Serviços originados na YUD Service Network.</li>
               </ul>
             </section>
 
@@ -156,7 +156,7 @@ export default function TermosDeUso() {
                 <li>Fornecer informações falsas, enganosas ou fraudulentas no cadastro ou nas avaliações.</li>
                 <li>Utilizar a Plataforma para atividades ilegais, fraudulentas ou que violem direitos de terceiros.</li>
                 <li>Assediar, ameaçar, discriminar ou intimidar outros Usuários.</li>
-                <li>Burlar o sistema de pagamento da Fixr combinando pagamentos diretamente fora da Plataforma.</li>
+                <li>Burlar o sistema de pagamento da YUD Service Network combinando pagamentos diretamente fora da Plataforma.</li>
                 <li>Criar múltiplas contas para contornar suspensões ou restrições.</li>
                 <li>Coletar dados de outros Usuários sem autorização.</li>
                 <li>Interferir no funcionamento técnico da Plataforma.</li>
@@ -169,16 +169,16 @@ export default function TermosDeUso() {
             <section>
               <h2 className="text-2xl font-bold mb-4">8. Sistema de Avaliações</h2>
               <p>
-                A Fixr mantém um sistema de avaliações mútuas entre Clientes e Profissionais. As avaliações devem ser honestas, baseadas na experiência real com o Serviço, e livres de linguagem ofensiva ou discriminatória.
+                A YUD Service Network mantém um sistema de avaliações mútuas entre Clientes e Profissionais. As avaliações devem ser honestas, baseadas na experiência real com o Serviço, e livres de linguagem ofensiva ou discriminatória.
               </p>
               <p>
-                A Fixr reserva-se o direito de remover avaliações que violem estas diretrizes, sem que isso implique manipulação ou censura do sistema de avaliações.
+                A YUD Service Network reserva-se o direito de remover avaliações que violem estas diretrizes, sem que isso implique manipulação ou censura do sistema de avaliações.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">9. Suspensão e Encerramento de Conta</h2>
-              <p>A Fixr pode suspender ou encerrar contas de Usuários que:</p>
+              <p>A YUD Service Network pode suspender ou encerrar contas de Usuários que:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Violem estes Termos de Uso ou a Política de Privacidade.</li>
                 <li>Apresentem comportamento fraudulento ou prejudicial à Plataforma ou a outros Usuários.</li>
@@ -191,7 +191,7 @@ export default function TermosDeUso() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4">10. Limitação de Responsabilidade</h2>
-              <p>A Fixr não se responsabiliza por:</p>
+              <p>A YUD Service Network não se responsabiliza por:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Danos causados por Profissionais durante ou após a execução do Serviço.</li>
                 <li>Descumprimento de obrigações contratuais entre Cliente e Profissional.</li>
@@ -199,24 +199,24 @@ export default function TermosDeUso() {
                 <li>Perdas indiretas, lucros cessantes ou danos morais decorrentes do uso da Plataforma.</li>
               </ul>
               <p>
-                A responsabilidade total da Fixr perante qualquer Usuário, em qualquer circunstância, fica limitada ao valor das comissões pagas pelo Usuário nos últimos 3 meses.
+                A responsabilidade total da YUD Service Network perante qualquer Usuário, em qualquer circunstância, fica limitada ao valor das comissões pagas pelo Usuário nos últimos 3 meses.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">11. Propriedade Intelectual</h2>
               <p>
-                Todo o conteúdo da Plataforma Fixr — incluindo marca, logo, design, código, textos e funcionalidades — é propriedade exclusiva da Fixrapp Tecnologia Ltda e protegido pelas leis de propriedade intelectual aplicáveis.
+                Todo o conteúdo da Plataforma YUD Service Network — incluindo marca, logo, design, código, textos e funcionalidades — é propriedade exclusiva da Fixrapp Tecnologia Ltda e protegido pelas leis de propriedade intelectual aplicáveis.
               </p>
               <p>
-                É vedada a reprodução, cópia, modificação ou distribuição do conteúdo da Fixr sem autorização expressa e por escrito.
+                É vedada a reprodução, cópia, modificação ou distribuição do conteúdo da YUD Service Network sem autorização expressa e por escrito.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">12. Alterações nos Termos</h2>
               <p>
-                A Fixr reserva-se o direito de atualizar estes Termos de Uso a qualquer momento. Alterações relevantes serão comunicadas aos Usuários com antecedência mínima de 15 dias por e-mail ou notificação na Plataforma. O uso continuado da Plataforma após a vigência das alterações constitui aceitação dos novos Termos.
+                A YUD Service Network reserva-se o direito de atualizar estes Termos de Uso a qualquer momento. Alterações relevantes serão comunicadas aos Usuários com antecedência mínima de 15 dias por e-mail ou notificação na Plataforma. O uso continuado da Plataforma após a vigência das alterações constitui aceitação dos novos Termos.
               </p>
             </section>
 
@@ -239,7 +239,7 @@ export default function TermosDeUso() {
 
             <div className="mt-12 pt-8 border-t border-border">
               <p className="text-center text-sm text-muted-foreground">
-                Fixr — Fixrapp Tecnologia Ltda
+                YUD Service Network — Fixrapp Tecnologia Ltda
               </p>
             </div>
           </div>

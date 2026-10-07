@@ -252,7 +252,7 @@ const MessagesPage = () => {
 
     return (
       <div className="flex flex-col h-screen bg-background">
-        <SEO title={`Conversa com ${partnerName} | Fixr`} />
+        <SEO title={`Conversa com ${partnerName} | YUD Service Network`} />
 
         <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4 flex-shrink-0">
           <div className="flex items-center gap-4 max-w-lg mx-auto">
@@ -378,7 +378,7 @@ const MessagesPage = () => {
   // ─── Conversation list view ───────────────────────────────────────────────────
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="Mensagens | Fixr" />
+      <SEO title="Mensagens | YUD Service Network" />
 
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-6 max-w-lg mx-auto">

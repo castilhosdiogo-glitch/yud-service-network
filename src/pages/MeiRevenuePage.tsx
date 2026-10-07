@@ -93,7 +93,7 @@ const MeiRevenuePage = () => {
   if (!planGate.isParceiro) {
     return (
       <div className="min-h-screen pb-20 bg-background flex items-center justify-center p-6">
-        <SEO title="MEI Receitas | Fixr" />
+        <SEO title="MEI Receitas | YUD Service Network" />
         <div className="text-center space-y-4">
           <DollarSign size={48} className="mx-auto text-muted-foreground" />
           <h2 className="font-display font-black text-sm uppercase tracking-[0.2em]">CONTROLE MEI</h2>
@@ -114,7 +114,7 @@ const MeiRevenuePage = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="MEI Receitas | Fixr" />
+      <SEO title="MEI Receitas | YUD Service Network" />
 
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center justify-between max-w-lg mx-auto">

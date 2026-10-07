@@ -23,7 +23,7 @@ export default async function LoginPage({
             <ShieldCheck size={20} />
           </div>
           <div>
-            <h1 className="text-xl font-semibold tracking-tight">Fixr Admin</h1>
+            <h1 className="text-xl font-semibold tracking-tight">YUD Service Network Admin</h1>
             <p className="text-xs text-slate-500">Painel administrativo</p>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default async function LoginPage({
         </form>
 
         <p className="mt-6 text-xs text-slate-400 text-center">
-          Este painel é restrito à equipe Fixr. Todas as ações são registradas.
+          Este painel é restrito à equipe YUD Service Network. Todas as ações são registradas.
         </p>
       </div>
     </div>

@@ -320,7 +320,7 @@ const AdminDashboard = () => {
 
   return (
     <div className="min-h-screen bg-background pb-20">
-      <SEO title="Painel Admin · Oferta | Fixr" description="Controle de vagas por categoria e cidade." />
+      <SEO title="Painel Admin · Oferta | YUD Service Network" description="Controle de vagas por categoria e cidade." />
 
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/90 backdrop-blur-xl border-b border-border px-4 py-4">

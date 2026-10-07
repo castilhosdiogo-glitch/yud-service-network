@@ -234,7 +234,7 @@ const QuoteRequest = () => {
           </div>
           <p className="text-[9px] font-black text-muted-foreground mt-4 text-center uppercase tracking-[0.2em] flex items-center justify-center gap-2">
             <Shield size={10} className="text-primary" />
-            CONVERSA 100% SEGURA E PROTEGIDA PELA Fixr
+            CONVERSA 100% SEGURA E PROTEGIDA PELA YUD
           </p>
         </div>
       </div>

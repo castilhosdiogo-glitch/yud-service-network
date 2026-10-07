@@ -12,8 +12,8 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = "Fixr — Conectando Você aos Melhores Profissionais",
-  description = "Fixr é a plataforma que conecta clientes a profissionais autônomos verificados. Encontre eletricistas, encanadores, pintores e muito mais. Crie seu perfil grátis e receba clientes.",
+  title = "YUD Service Network — Conectando Você aos Melhores Profissionais",
+  description = "A YUD Service Network é a plataforma que conecta clientes a profissionais autônomos verificados. Encontre eletricistas, encanadores, pintores e muito mais. Crie seu perfil grátis e receba clientes.",
   type = "website",
   image = "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f45a7a9-2c91-4de7-b68e-1c6f51d09bd1/id-preview-6fda0cae--7861afd0-bb2a-4dfe-9cef-56b7ddf79a73.lovable.app-1773269197454.png",
   url = "https://fixr.com.br", // Recomenda-se trocar pelo domínio final quando existir
@@ -23,11 +23,11 @@ export const SEO = ({
 }: SEOProps) => {
   const currentUrl = canonicalUrl || url;
 
-  // Schema Markup Base (Organization) - Crucial para o Google entender que o Fixr é uma Entidade
+  // Schema Markup Base (Organization) - Crucial para o Google entender que a YUD Service Network é uma Entidade
   const defaultSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Fixr",
+    name: "YUD Service Network",
     url: "https://fixr.com.br",
     logo: image,
     description: "Plataforma de intermediação de serviços domésticos que conecta clientes a profissionais verificados.",
@@ -50,7 +50,7 @@ export const SEO = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       {image && <meta property="og:image" content={image} />}
-      <meta property="og:site_name" content="Fixr" />
+      <meta property="og:site_name" content="YUD Service Network" />
       <meta property="og:locale" content="pt_BR" />
 
       {/* Twitter (X) */}

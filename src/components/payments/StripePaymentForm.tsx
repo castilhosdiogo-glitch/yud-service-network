@@ -100,7 +100,7 @@ export function StripePaymentForm({
         </p>
         <p className="text-2xl font-black text-foreground">{amountBRL}</p>
         <p className="text-xs text-muted-foreground mt-2">
-          Comissão Fixr ({commissionRate}%): {((amount * (commissionRate / 100)) / 100).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+          Comissão YUD ({commissionRate}%): {((amount * (commissionRate / 100)) / 100).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
         </p>
       </div>
 

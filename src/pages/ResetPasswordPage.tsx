@@ -67,7 +67,7 @@ const ResetPasswordPage = () => {
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center px-4 py-10">
-      <SEO title="Redefinir Senha | Fixr" />
+      <SEO title="Redefinir Senha | YUD Service Network" />
       <div className="w-full max-w-md space-y-8">
         <div className="text-center space-y-3">
           <Logo className="w-16 h-16 mx-auto" />

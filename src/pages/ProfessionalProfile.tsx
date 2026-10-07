@@ -55,11 +55,11 @@ const ProfessionalProfile = () => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         reviews: (reviews || []).map((r: any) => ({
           id: r.id,
-          clientName: r.client?.full_name || "Cliente Fixr",
+          clientName: r.client?.full_name || "Cliente YUD Service Network",
           rating: r.rating,
           comment: r.comment || "",
           date: new Date(r.created_at).toLocaleDateString("pt-BR"),
-          serviceDescription: "Serviço Fixr", // Generic for now
+          serviceDescription: "Serviça YUD Service Network", // Generic for now
         })),
       };
     },
@@ -84,7 +84,7 @@ const ProfessionalProfile = () => {
 
   return (
     <div className="min-h-screen pb-28">
-      <SEO title={`${professional.name} - ${professional.category_name} | Fixr`} description={`Conheça ${professional.name}, ${professional.category_name} em ${professional.city}, ${professional.state}. Veja avaliações e solicite um orçamento gratuito.`} image={professional.photo || ""} />
+      <SEO title={`${professional.name} - ${professional.category_name} | YUD Service Network`} description={`Conheça ${professional.name}, ${professional.category_name} em ${professional.city}, ${professional.state}. Veja avaliações e solicite um orçamento gratuito.`} image={professional.photo || ""} />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-6 max-w-lg mx-auto">
@@ -101,12 +101,12 @@ const ProfessionalProfile = () => {
       </header>
 
       <div className="max-w-lg mx-auto">
-        {/* Fixr Select banner */}
+        {/* YUD Select banner */}
         {professional.nivel_curadoria === "fixr_select" && (
           <div className="bg-gradient-to-r from-amber-400 to-amber-500 text-white px-6 py-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Award size={16} />
-              <span className="font-display font-black text-xs uppercase tracking-[0.25em]">Fixr Select</span>
+              <span className="font-display font-black text-xs uppercase tracking-[0.25em]">YUD Select</span>
             </div>
             <span className="text-[10px] font-black uppercase tracking-widest opacity-90">
               Curadoria manual · Top 10%
@@ -143,12 +143,12 @@ const ProfessionalProfile = () => {
             </div>
           </div>
 
-          {/* Fixr Score (se houver) */}
+          {/* YUD Service Network Score (se houver) */}
           {professional.fixr_score != null && professional.fixr_score > 0 && (
             <div className="mt-4 flex items-center gap-3 bg-secondary/20 border border-border rounded-xl px-4 py-3">
               <TrendingUp size={14} className="text-primary flex-shrink-0" />
               <div className="flex-1">
-                <p className="text-[8px] font-black uppercase tracking-widest text-muted-foreground">Fixr Score</p>
+                <p className="text-[8px] font-black uppercase tracking-widest text-muted-foreground">YUD Service Network Score</p>
                 <p className="text-lg font-display font-black text-foreground tracking-tighter">
                   {Number(professional.fixr_score).toFixed(0)}
                   <span className="text-[9px] font-black text-muted-foreground ml-1">/100</span>
