@@ -36,24 +36,20 @@ const QuoteRequest = () => {
   const { data: professional, isLoading } = useQuery({
     queryKey: ["professional-quote", id],
     queryFn: async () => {
+      // Public projection only — SELECT * on the base tables would also ship
+      // phone, cnpj and precise coordinates to the browser.
       const { data: pro, error: proError } = await supabase
-        .from("professional_profiles")
-        .select("*")
+        .from("public_professional_directory")
+        .select("id, full_name, avatar_url, category_name, rating, review_count")
         .eq("id", id)
         .maybeSingle();
-      
-      if (proError || !pro) throw new Error("Profissional não encontrado");
 
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("*")
-        .eq("user_id", pro.user_id)
-        .single();
+      if (proError || !pro) throw new Error("Profissional não encontrado");
 
       return {
         id: pro.id,
-        name: profile?.full_name || "Profissional",
-        photo: profile?.avatar_url || "",
+        name: pro.full_name || "Profissional",
+        photo: pro.avatar_url || "",
         category: pro.category_name || "Especialista",
         rating: pro.rating || 5.0,
         reviewCount: pro.review_count || 0,

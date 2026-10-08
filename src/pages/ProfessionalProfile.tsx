@@ -17,23 +17,17 @@ const ProfessionalProfile = () => {
   const { data: professional, isLoading } = useQuery({
     queryKey: ["professional", id],
     queryFn: async () => {
-      // 1. Get professional profile
+      // 1. Public projection only. SELECT * on professional_profiles/profiles
+      // would also ship phone, cnpj and precise coordinates to the browser.
       const { data: pro, error: proError } = await supabase
-        .from("professional_profiles")
+        .from("public_professional_directory")
         .select("*")
         .eq("id", id)
         .single();
 
       if (proError) throw proError;
 
-      // 2. Get the associated user profile
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("*")
-        .eq("user_id", pro.user_id)
-        .single();
-
-      // 3. Get reviews with client names
+      // 2. Get reviews with client names
       const { data: reviews } = await supabase
         .from("reviews")
         .select(`
@@ -47,11 +41,10 @@ const ProfessionalProfile = () => {
 
       return {
         ...pro,
-        name: profile?.full_name || "Profissional",
-        photo: profile?.avatar_url || "",
-        city: profile?.city || "Local não definido",
-        state: profile?.state || "RS",
-        phone: profile?.phone || "",
+        name: pro.full_name || "Profissional",
+        photo: pro.avatar_url || "",
+        city: pro.city || "Local não definido",
+        state: pro.state || "RS",
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         reviews: (reviews || []).map((r: any) => ({
           id: r.id,

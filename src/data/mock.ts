@@ -29,7 +29,8 @@ export interface Professional {
   premium: boolean;
   description: string;
   experience: string;
-  phone: string;
+  // phone is deliberately absent: it is PII, it was never rendered, and the
+  // public directory no longer returns it. See migration 051.
   reviews: Review[];
   plan_name?: string;
   nivel_curadoria?: string;
