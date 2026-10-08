@@ -17,45 +17,35 @@ const ProfessionalProfile = () => {
   const { data: professional, isLoading } = useQuery({
     queryKey: ["professional", id],
     queryFn: async () => {
-      // 1. Get professional profile
+      // 1. Public projection only. SELECT * on professional_profiles/profiles
+      // would also ship phone, cnpj and precise coordinates to the browser.
       const { data: pro, error: proError } = await supabase
-        .from("professional_profiles")
+        .from("public_professional_directory")
         .select("*")
         .eq("id", id)
         .single();
 
       if (proError) throw proError;
 
-      // 2. Get the associated user profile
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("*")
-        .eq("user_id", pro.user_id)
-        .single();
-
-      // 3. Get reviews with client names
+      // 2. Reviews with the author's display name. Embedding profiles into a
+      // reviews query stops resolving once profiles is restricted to the
+      // signed-in user, admins and actual counterparties (migration 052).
       const { data: reviews } = await supabase
-        .from("reviews")
-        .select(`
-          *,
-          client:client_id (
-            full_name
-          )
-        `)
+        .from("public_professional_reviews")
+        .select("id, rating, comment, created_at, client_name")
         .eq("professional_id", pro.user_id)
         .order("created_at", { ascending: false });
 
       return {
         ...pro,
-        name: profile?.full_name || "Profissional",
-        photo: profile?.avatar_url || "",
-        city: profile?.city || "Local não definido",
-        state: profile?.state || "RS",
-        phone: profile?.phone || "",
+        name: pro.full_name || "Profissional",
+        photo: pro.avatar_url || "",
+        city: pro.city || "Local não definido",
+        state: pro.state || "RS",
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         reviews: (reviews || []).map((r: any) => ({
           id: r.id,
-          clientName: r.client?.full_name || "Cliente Fixr",
+          clientName: r.client_name || "Cliente Fixr",
           rating: r.rating,
           comment: r.comment || "",
           date: new Date(r.created_at).toLocaleDateString("pt-BR"),

@@ -29,7 +29,6 @@ const ProfessionalsSection = () => {
         premium: pro.plan_name === "parceiro",
         description: pro.description || "",
         experience: pro.experience || "N/A",
-        phone: pro.phone || "",
         plan_name: pro.plan_name || "explorador",
         nivel_curadoria: pro.nivel_curadoria || "fixr_explorador",
         fixr_score: Number(pro.fixr_score || 0),

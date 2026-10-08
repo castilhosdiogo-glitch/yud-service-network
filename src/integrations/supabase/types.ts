@@ -894,6 +894,40 @@ export type Database = {
       }
     }
     Views: {
+      public_professional_reviews: {
+        Row: {
+          client_name: string | null
+          comment: string | null
+          created_at: string | null
+          id: string | null
+          professional_id: string | null
+          rating: number | null
+        }
+        Relationships: []
+      }
+      public_professional_directory: {
+        Row: {
+          avatar_url: string | null
+          category_id: string | null
+          category_name: string | null
+          city: string | null
+          description: string | null
+          disponivel: boolean | null
+          experience: string | null
+          fixr_score: number | null
+          full_name: string | null
+          id: string | null
+          nivel_curadoria: string | null
+          plan_name: string | null
+          rating: number | null
+          review_count: number | null
+          state: string | null
+          total_concluidos: number | null
+          user_id: string | null
+          verified: boolean | null
+        }
+        Relationships: []
+      }
       professional_reputation: {
         Row: {
           acceptance_rate: number | null
