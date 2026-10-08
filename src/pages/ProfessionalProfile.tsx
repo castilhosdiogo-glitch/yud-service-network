@@ -27,15 +27,12 @@ const ProfessionalProfile = () => {
 
       if (proError) throw proError;
 
-      // 2. Get reviews with client names
+      // 2. Reviews with the author's display name. Embedding profiles into a
+      // reviews query stops resolving once profiles is restricted to the
+      // signed-in user, admins and actual counterparties (migration 052).
       const { data: reviews } = await supabase
-        .from("reviews")
-        .select(`
-          *,
-          client:client_id (
-            full_name
-          )
-        `)
+        .from("public_professional_reviews")
+        .select("id, rating, comment, created_at, client_name")
         .eq("professional_id", pro.user_id)
         .order("created_at", { ascending: false });
 
@@ -48,7 +45,7 @@ const ProfessionalProfile = () => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         reviews: (reviews || []).map((r: any) => ({
           id: r.id,
-          clientName: r.client?.full_name || "Cliente Fixr",
+          clientName: r.client_name || "Cliente Fixr",
           rating: r.rating,
           comment: r.comment || "",
           date: new Date(r.created_at).toLocaleDateString("pt-BR"),

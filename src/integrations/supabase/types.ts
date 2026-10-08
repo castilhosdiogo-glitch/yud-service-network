@@ -894,6 +894,17 @@ export type Database = {
       }
     }
     Views: {
+      public_professional_reviews: {
+        Row: {
+          client_name: string | null
+          comment: string | null
+          created_at: string | null
+          id: string | null
+          professional_id: string | null
+          rating: number | null
+        }
+        Relationships: []
+      }
       public_professional_directory: {
         Row: {
           avatar_url: string | null
