@@ -37,7 +37,7 @@ const SearchPage = () => {
 
   const { data: categories = [] } = useCategories();
 
-  // Fetch Professionals via RPC com ranking Fixr Score
+  // Fetch Professionals via RPC com ranking YUD Service Network Score
   const { data: searchResult, isLoading: isProsLoading } = useQuery({
     queryKey: ["professionals", categoryFilter, cityFilter, query, user?.id],
     queryFn: async () => {
@@ -118,7 +118,7 @@ const SearchPage = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title={`${pageTitle} | Fixr`} description={`Busque profissionais qualificados no Fixr. ${filtered.length} resultados encontrados.`} />
+      <SEO title={`${pageTitle} | YUD Service Network`} description={`Busque profissionais qualificados na YUD Service Network. ${filtered.length} resultados encontrados.`} />
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-6 max-w-lg mx-auto">
           <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all active:scale-95">
@@ -191,7 +191,7 @@ const SearchPage = () => {
         {isFirstTime && (
           <div className="mb-4 rounded-2xl border border-amber-300/60 bg-amber-50 p-4">
             <p className="text-[9px] font-black uppercase tracking-widest text-amber-900">
-              Sua primeira busca · mostrando apenas Fixr Select
+              Sua primeira busca · mostrando apenas YUD Select
             </p>
             <p className="text-[10px] text-amber-800 mt-1 leading-relaxed">
               Os profissionais mais confiáveis da plataforma, verificados manualmente.

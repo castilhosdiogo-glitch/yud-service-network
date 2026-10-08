@@ -188,7 +188,7 @@ const BroadcastRequestPage = () => {
   return (
     <div className="min-h-screen bg-background pb-20">
       <SEO
-        title="Solicitar Serviço | Fixr"
+        title="Solicitar Serviço | YUD Service Network"
         description="Descreva o serviço que você precisa e receba propostas dos melhores profissionais da sua região."
       />
 

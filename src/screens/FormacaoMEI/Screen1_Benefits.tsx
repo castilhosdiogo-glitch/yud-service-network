@@ -81,7 +81,7 @@ export function Screen1Benefits({ onStart }: Screen1BenefitsProps) {
         <Text style={styles.highlightText}>
           ✓ Registro 100% online no gov.br{"\n"}
           ✓ Processo rápido e simples{"\n"}
-          ✓ Suporte da Fixr em cada passo
+          ✓ Suporte da YUD Service Network em cada passo
         </Text>
       </View>
 

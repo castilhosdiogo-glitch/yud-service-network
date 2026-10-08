@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-2 w-fit group">
               <Logo className="w-6 h-6 group-hover:scale-95 transition-transform" />
-              <span className="font-display font-black text-lg text-foreground">Fixr</span>
+              <span className="font-display font-black text-lg text-foreground">YUD Service Network</span>
             </Link>
             <p className="text-xs text-muted-foreground">
               Conectando clientes com profissionais verificados
@@ -124,7 +124,7 @@ export const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
             <p>
-              © {currentYear} Fixrapp Tecnologia Ltda. Todos os direitos reservados.
+              © {currentYear} YUD Service Network. Todos os direitos reservados.
             </p>
             <div className="flex gap-4">
               <a

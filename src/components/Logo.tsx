@@ -8,7 +8,7 @@ export const Logo = ({ className = "w-10 h-10" }: { className?: string }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Fixr"
+      aria-label="YUD Service Network"
     >
       <circle cx="90" cy="90" r="62" fill="none" stroke="#ffffff" strokeWidth="2.5" strokeDasharray="4 5" />
       <line x1="90" y1="90" x2="42" y2="52" stroke="#ffffff" strokeWidth="2.5" />
@@ -33,7 +33,7 @@ export const LogoWordmark = ({ className = "h-10" }: { className?: string }) => 
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Fixr"
+      aria-label="YUD Service Network"
     >
       <circle cx="90" cy="90" r="62" fill="none" stroke="#ffffff" strokeWidth="2.5" strokeDasharray="4 5" />
       <line x1="90" y1="90" x2="42" y2="52" stroke="#ffffff" strokeWidth="2.5" />

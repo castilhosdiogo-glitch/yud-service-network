@@ -102,7 +102,7 @@ const ClientDashboard = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="Meu Painel | Fixr" />
+      <SEO title="Meu Painel | YUD Service Network" />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-6 max-w-lg mx-auto">
@@ -132,7 +132,7 @@ const ClientDashboard = () => {
               OLÁ, {profile?.full_name?.split(" ")[0]?.toUpperCase() || "USUÁRIO"}!
             </h2>
             <p className="text-[10px] font-black uppercase tracking-widest text-primary mt-1">
-              {profile?.city ? `${profile.city.toUpperCase()}, ${profile.state}` : "TERMINAL DE OPERAÇÃO Fixr"}
+              {profile?.city ? `${profile.city.toUpperCase()}, ${profile.state}` : "TERMINAL DE OPERAÇÃA YUD Service Network"}
             </p>
           </div>
         </motion.div>

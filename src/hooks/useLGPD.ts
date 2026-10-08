@@ -87,7 +87,7 @@ export function useExportUserData() {
       const url = URL.createObjectURL(dataBlob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `Fixr-data-export-${user.id}.json`;
+      link.download = `YUD Service Network-data-export-${user.id}.json`;
       link.click();
       URL.revokeObjectURL(url);
 

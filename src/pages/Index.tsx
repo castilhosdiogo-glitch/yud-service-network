@@ -16,17 +16,17 @@ const Index = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background selection:bg-primary/20 selection:text-foreground">
-      <SEO title="Fixr — Conectando Você aos Melhores Profissionais" />
+      <SEO title="YUD Service Network — Conectando Você aos Melhores Profissionais" />
 
       {/* Industrial Header */}
       <header className="sticky top-0 z-50 bg-background/95 border-b border-border">
         <nav className="px-4 py-4 max-w-7xl mx-auto flex items-center justify-between" aria-label="Navegação principal">
 
-          <Link to="/" className="flex items-center gap-3 group" aria-label="Fixr">
+          <Link to="/" className="flex items-center gap-3 group" aria-label="YUD Service Network">
             <Logo className="w-10 h-10 group-hover:scale-95 transition-transform" />
             <div className="flex flex-col">
               <h1 className="font-display font-extrabold text-2xl tracking-tight text-foreground">
-                Fixr
+                YUD Service Network
               </h1>
             </div>
           </Link>

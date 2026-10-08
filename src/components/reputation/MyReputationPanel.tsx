@@ -16,7 +16,7 @@ const BREAKDOWN_ITEMS = [
 ];
 
 const LEVEL_THRESHOLDS = [
-  { level: "top",      score: 85, reviews: 10, acceptance: 80, label: "TOP Fixr",   color: "text-emerald-500" },
+  { level: "top",      score: 85, reviews: 10, acceptance: 80, label: "TOP YUD",   color: "text-emerald-500" },
   { level: "verified", score: 0,  reviews: 0,  acceptance: 0,  label: "VERIFICADO",   color: "text-primary" },
 ];
 

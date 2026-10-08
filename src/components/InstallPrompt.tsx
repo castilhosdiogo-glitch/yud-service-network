@@ -45,7 +45,7 @@ export const InstallPrompt = () => {
                 <span className="text-primary font-display font-black text-xl">P</span>
               </div>
               <div>
-                <p className="text-[10px] font-black uppercase tracking-widest text-white leading-tight">Instalar Fixr</p>
+                <p className="text-[10px] font-black uppercase tracking-widest text-white leading-tight">Instalar YUD Service Network</p>
                 <p className="text-[9px] font-black uppercase tracking-widest text-white/60 mt-0.5">App rápido e seguro no seu celular</p>
               </div>
             </div>

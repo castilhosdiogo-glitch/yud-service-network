@@ -54,7 +54,7 @@ const ProfessionalsSection = () => {
             <span className="text-xs text-primary font-semibold uppercase tracking-wide">Top Avaliados</span>
           </div>
           <h2 className="font-display text-xl font-bold text-foreground">Profissionais na sua Região</h2>
-          <p className="text-xs text-muted-foreground mt-0.5 font-medium">Os melhores avaliados pelos clientes da Fixr</p>
+          <p className="text-xs text-muted-foreground mt-0.5 font-medium">Os melhores avaliados pelos clientes da YUD Service Network</p>
         </div>
       </motion.div>
       <div className="flex flex-col gap-2">

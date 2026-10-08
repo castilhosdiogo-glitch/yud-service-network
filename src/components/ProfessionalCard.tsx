@@ -40,7 +40,7 @@ const ProfessionalCard = ({ professional, index = 0 }: ProfessionalCardProps) =>
           <div className="flex items-center justify-between px-4 py-1.5 bg-gradient-to-r from-amber-400 to-amber-500 text-white">
             <span className="inline-flex items-center gap-1.5">
               <Award size={10} />
-              <span className="text-[8px] font-black uppercase tracking-[0.25em]">Fixr Select</span>
+              <span className="text-[8px] font-black uppercase tracking-[0.25em]">YUD Select</span>
             </span>
             <span className="text-[8px] font-black uppercase tracking-widest opacity-90">
               Curadoria manual

@@ -9,8 +9,8 @@ export default function Privacidade() {
   return (
     <>
       <Helmet>
-        <title>Política de Privacidade - Fixr</title>
-        <meta name="description" content="Saiba como protegemos seus dados no Fixr" />
+        <title>Política de Privacidade - YUD Service Network</title>
+        <meta name="description" content="Saiba como protegemos seus dados na YUD Service Network" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
@@ -41,10 +41,10 @@ export default function Privacidade() {
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Introdução</h2>
               <p>
-                A Fixrapp Tecnologia Ltda, operadora da plataforma Fixr, está comprometida com a proteção da privacidade e dos dados pessoais de seus Usuários, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD) e demais legislações aplicáveis.
+                A YUD Service Network, operadora desta plataforma, está comprometida com a proteção da privacidade e dos dados pessoais de seus Usuários, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD) e demais legislações aplicáveis.
               </p>
               <p>
-                Esta Política de Privacidade descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos suas informações ao utilizar a Plataforma Fixr.
+                Esta Política de Privacidade descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos suas informações ao utilizar a Plataforma YUD Service Network.
               </p>
             </section>
 
@@ -94,7 +94,7 @@ export default function Privacidade() {
             <section>
               <h2 className="text-2xl font-bold mb-4">4. Base Legal para o Tratamento</h2>
               <p>
-                O tratamento dos seus dados pessoais pela Fixr é realizado com base nas seguintes hipóteses legais previstas na LGPD:
+                O tratamento dos seus dados pessoais pela YUD Service Network é realizado com base nas seguintes hipóteses legais previstas na LGPD:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li><strong>Execução de contrato:</strong> para prestação dos serviços da Plataforma.</li>
@@ -115,7 +115,7 @@ export default function Privacidade() {
                 <li><strong>Autoridades públicas:</strong> quando exigido por lei, decisão judicial ou regulamentação aplicável.</li>
               </ul>
               <p className="mt-4">
-                A Fixr não vende seus dados pessoais a terceiros para fins comerciais.
+                A YUD Service Network não vende seus dados pessoais a terceiros para fins comerciais.
               </p>
             </section>
 
@@ -154,7 +154,7 @@ export default function Privacidade() {
             <section>
               <h2 className="text-2xl font-bold mb-4">8. Segurança dos Dados</h2>
               <p>
-                A Fixr adota medidas técnicas e administrativas para proteger seus dados pessoais, incluindo:
+                A YUD Service Network adota medidas técnicas e administrativas para proteger seus dados pessoais, incluindo:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Criptografia de dados em trânsito (TLS/HTTPS) e em repouso.</li>
@@ -193,7 +193,7 @@ export default function Privacidade() {
             <section>
               <h2 className="text-2xl font-bold mb-4">11. Encarregado de Dados (DPO)</h2>
               <p>
-                O Encarregado pelo Tratamento de Dados Pessoais (Data Protection Officer) da Fixr pode ser contactado pelo e-mail: dpofixrapp@gmail.com.br
+                O Encarregado pelo Tratamento de Dados Pessoais (Data Protection Officer) da YUD Service Network pode ser contactado pelo e-mail: dpofixrapp@gmail.com.br
               </p>
             </section>
 
@@ -215,7 +215,7 @@ export default function Privacidade() {
 
             <div className="mt-12 pt-8 border-t border-border">
               <p className="text-center text-sm text-muted-foreground">
-                Fixr — Fixrapp Tecnologia Ltda
+                YUD Service Network
               </p>
             </div>
           </div>

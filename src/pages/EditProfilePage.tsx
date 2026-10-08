@@ -145,7 +145,7 @@ const EditProfilePage = () => {
 
   return (
     <div className="min-h-screen pb-24 bg-background">
-      <SEO title="Editar Perfil | Fixr" />
+      <SEO title="Editar Perfil | YUD Service Network" />
 
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-4 max-w-lg mx-auto">

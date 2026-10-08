@@ -38,7 +38,7 @@ export function Sidebar({ adminName }: { adminName: string }) {
           <ShieldCheck size={16} />
         </div>
         <div className="leading-tight">
-          <p className="text-sm font-semibold tracking-tight">Fixr Admin</p>
+          <p className="text-sm font-semibold tracking-tight">YUD Service Network Admin</p>
           <p className="text-[10px] text-slate-500 uppercase tracking-widest">Painel</p>
         </div>
       </div>

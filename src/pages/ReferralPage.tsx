@@ -110,7 +110,7 @@ const ReferralPage = () => {
   return (
     <div className="min-h-screen bg-background pb-24">
       <SEO
-        title="Indicar Amigos | Fixr"
+        title="Indicar Amigos | YUD Service Network"
         description="Indique colegas profissionais e ganhe meses grátis, destaque e posição privilegiada no ranking."
       />
 
@@ -128,7 +128,7 @@ const ReferralPage = () => {
               Indicar & Crescer
             </h1>
             <p className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest mt-0.5">
-              Programa de Indicação Fixr
+              Programa de Indicação YUD
             </p>
           </div>
           {(stats?.active_count ?? 0) > 0 && (

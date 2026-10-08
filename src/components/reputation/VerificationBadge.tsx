@@ -21,7 +21,7 @@ const CONFIG: Record<
     className: "bg-primary text-primary-foreground border-primary",
   },
   top: {
-    label: "TOP Fixr",
+    label: "TOP YUD",
     icon: <Crown size={10} fill="currentColor" />,
     className: "bg-emerald-500 text-white border-emerald-500",
   },

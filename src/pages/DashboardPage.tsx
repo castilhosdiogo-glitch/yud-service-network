@@ -112,7 +112,7 @@ const DashboardPage = () => {
 
   return (
     <div className="min-h-screen pb-20 bg-background">
-      <SEO title="Painel do Profissional | Fixr" />
+      <SEO title="Painel do Profissional | YUD Service Network" />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background border-b border-border px-4 py-4">
         <div className="flex items-center gap-6 max-w-lg mx-auto">

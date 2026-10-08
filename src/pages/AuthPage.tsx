@@ -282,7 +282,7 @@ const AuthPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO title={(mode === "login" ? "Entrar" : "Criar Conta") + " | Fixr"} description="Acesse ou crie sua conta no Fixr para contratar ou oferecer serviços na sua região." />
+      <SEO title={(mode === "login" ? "Entrar" : "Criar Conta") + " | YUD Service Network"} description="Acesse ou crie sua conta na YUD Service Network para contratar ou oferecer serviços na sua região." />
       <header className="bg-background/80 backdrop-blur-xl border-b border-border/50 p-4 sticky top-0 z-50">
         <div className="flex items-center gap-6 max-w-md mx-auto">
           <button onClick={() => window.history.length > 1 ? navigate(-1) : navigate('/')} className="w-12 h-12 flex items-center justify-center rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all active:scale-95 shadow-none">
@@ -369,7 +369,7 @@ const AuthPage = () => {
         {mode === "login" && (
           <div className="text-center space-y-4 pb-10">
             <Logo className="w-24 h-24 mx-auto mb-6 text-primary" />
-            <h2 className="font-display text-4xl font-extrabold text-foreground tracking-tight">Fixr</h2>
+            <h2 className="font-display text-4xl font-extrabold text-foreground tracking-tight">YUD Service Network</h2>
             <p className="text-sm font-semibold text-muted-foreground">Conectando você ao profissional certo</p>
           </div>
         )}

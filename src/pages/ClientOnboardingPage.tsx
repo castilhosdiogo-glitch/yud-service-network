@@ -81,7 +81,7 @@ function StepWelcome({ name, onNext }: { name: string; onNext: () => void }) {
           Bem-vindo{firstName ? `, ${firstName}` : ""}!
         </h1>
         <p className="text-sm text-muted-foreground mt-2">
-          A Fixr conecta você com profissionais verificados em minutos. Vamos
+          A YUD Service Network conecta você com profissionais verificados em minutos. Vamos
           começar configurando o seu endereço principal.
         </p>
       </div>
