@@ -103,11 +103,19 @@ Deno.serve(async (req) => {
     );
     console.log(JSON.stringify(logEntry));
 
-    // Check idempotency: if same key exists, return existing payment
+    // Check idempotency: if same key exists, return existing payment.
+    //
+    // Scoped to the caller. idempotency_key is globally UNIQUE on payments and
+    // this query runs with the service role, so without the client_id filter a
+    // caller supplying someone else's key would receive that payment's
+    // stripe_payment_intent back as their own client_secret. Keys are built on
+    // the client as `${user_id}-${broadcast_id}-${Date.now()}`, so the inputs
+    // are partly guessable and only the millisecond is hard to hit.
     const { data: existingPayment, error: idempotencyError } = await db
       .from("payments")
       .select("stripe_payment_intent, amount_paid_cents")
       .eq("idempotency_key", idempotency_key)
+      .eq("client_id", sanitizedClientId)
       .single();
 
     if (idempotencyError && idempotencyError.code !== "PGRST116") {
