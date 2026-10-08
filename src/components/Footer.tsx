@@ -124,7 +124,7 @@ export const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
             <p>
-              © {currentYear} Fixrapp Tecnologia Ltda. Todos os direitos reservados.
+              © {currentYear} YUD Service Network. Todos os direitos reservados.
             </p>
             <div className="flex gap-4">
               <a

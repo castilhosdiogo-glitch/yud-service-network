@@ -229,7 +229,7 @@ export default function FAQ() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>YUD Service Network — Fixrapp Tecnologia Ltda</p>
+            <p>YUD Service Network</p>
           </div>
         </div>
         </div>

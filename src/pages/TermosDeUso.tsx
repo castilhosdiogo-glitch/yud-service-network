@@ -41,7 +41,7 @@ export default function TermosDeUso() {
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Sobre a YUD Service Network</h2>
               <p>
-                A YUD Service Network é uma plataforma digital de intermediação de serviços domésticos, operada pela Fixrapp Tecnologia Ltda, com sede em Gravataí, Rio Grande do Sul, Brasil.
+                A YUD Service Network é uma plataforma digital de intermediação de serviços domésticos, com sede em Gravataí, Rio Grande do Sul, Brasil.
               </p>
               <p>
                 A YUD Service Network conecta clientes que precisam de serviços domésticos com profissionais autônomos verificados, facilitando o agendamento, a comunicação e o pagamento de forma segura e transparente.
@@ -206,7 +206,7 @@ export default function TermosDeUso() {
             <section>
               <h2 className="text-2xl font-bold mb-4">11. Propriedade Intelectual</h2>
               <p>
-                Todo o conteúdo da Plataforma YUD Service Network — incluindo marca, logo, design, código, textos e funcionalidades — é propriedade exclusiva da Fixrapp Tecnologia Ltda e protegido pelas leis de propriedade intelectual aplicáveis.
+                Todo o conteúdo da Plataforma YUD Service Network — incluindo marca, logo, design, código, textos e funcionalidades — é propriedade exclusiva da YUD Service Network e protegido pelas leis de propriedade intelectual aplicáveis.
               </p>
               <p>
                 É vedada a reprodução, cópia, modificação ou distribuição do conteúdo da YUD Service Network sem autorização expressa e por escrito.
@@ -239,7 +239,7 @@ export default function TermosDeUso() {
 
             <div className="mt-12 pt-8 border-t border-border">
               <p className="text-center text-sm text-muted-foreground">
-                YUD Service Network — Fixrapp Tecnologia Ltda
+                YUD Service Network
               </p>
             </div>
           </div>

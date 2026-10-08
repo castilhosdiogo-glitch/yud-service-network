@@ -41,7 +41,7 @@ export default function Privacidade() {
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Introdução</h2>
               <p>
-                A Fixrapp Tecnologia Ltda, operadora da plataforma YUD Service Network, está comprometida com a proteção da privacidade e dos dados pessoais de seus Usuários, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD) e demais legislações aplicáveis.
+                A YUD Service Network, operadora desta plataforma, está comprometida com a proteção da privacidade e dos dados pessoais de seus Usuários, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD) e demais legislações aplicáveis.
               </p>
               <p>
                 Esta Política de Privacidade descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos suas informações ao utilizar a Plataforma YUD Service Network.
@@ -215,7 +215,7 @@ export default function Privacidade() {
 
             <div className="mt-12 pt-8 border-t border-border">
               <p className="text-center text-sm text-muted-foreground">
-                YUD Service Network — Fixrapp Tecnologia Ltda
+                YUD Service Network
               </p>
             </div>
           </div>
